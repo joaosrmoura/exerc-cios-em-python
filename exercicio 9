@@ -1,0 +1,18 @@
+nome = input("Digite o nome do aluno:")
+disciplina = input("Digite o nome da disciplina:")
+nota1 = float(input("Digite a 1ª nota:"))
+nota2 = float(input("Digite a 2ª nota:"))
+nota3 = float(input("Digite a 3ª nota:"))
+
+media = (nota1 + nota2 + nota3) / 3
+
+print("Nome do aluno:",nome)
+print("Nome da disciplina:",disciplina)
+print("1ª nota:",nota1)
+print("2ª nota:",nota2)
+print("3ª nota:",nota3)
+
+if media >= 6:
+    print("O aluno está aprovado com a nota:",media)
+else:
+    print("O aluno está reprovado com a nota:",media)
