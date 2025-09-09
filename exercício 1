@@ -1,0 +1,9 @@
+nome = input("Digite o nome completo:")
+idade = input("Digite a idade:")
+endereço = input("Digite o endereço:")
+telefone = input("Digite o telefone:")
+
+print("Nome completo:",nome)
+print("idade:",idade)
+print("Endereço:",endereço)
+print("telefone:",telefone)
