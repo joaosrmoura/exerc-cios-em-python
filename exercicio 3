@@ -1,0 +1,7 @@
+nome = input("Digite o nome:")
+titulo = input("Digite o título eleitoral:")
+n_candidato = input("Digite o número do candidato:")
+
+print("Nome:",nome)
+print("Título eleitoral:",titulo)
+print("Número do candidato: nº",n_candidato)
