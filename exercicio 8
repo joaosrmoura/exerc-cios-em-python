@@ -1,0 +1,7 @@
+distancia = float(input("Digite a distancia em km:"))
+km_litro = float(input("Digite o consumo do carro em km:"))
+preco_gasolina = float(input("Digite o preço da gasolina:"))
+
+custo = (distancia / km_litro) * preco_gasolina
+
+print("O custo dessa viagem de carro é:",custo)
